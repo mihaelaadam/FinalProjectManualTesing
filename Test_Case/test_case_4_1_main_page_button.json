@@ -1,0 +1,27 @@
+﻿{
+  "item": [
+    {
+      "type": "task",
+      "title": "[SCRUM-63] 4.1. Verify Main Page button functionality",
+      "environment": "Desktop, mobile, tablet",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;",
+	"3. Click the Main page button."
+      ],
+      "expected results": [
+	"1. Main page is loaded. Reports button is visible.",
+	"2. Reports page is loaded. Main page button is visible;",
+	"3. Main page is displayed."
+      ],
+      "priority": "High",
+      "assignee": "Mihaela Adam",
+      "status": "Done"
+    }
+  ]
+}

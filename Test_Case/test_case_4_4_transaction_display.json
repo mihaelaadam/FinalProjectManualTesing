@@ -1,0 +1,35 @@
+﻿{
+  "item": [
+    {
+      "type": "task",
+      "title": "[SCRUM-69] 4.4. Verify the display of transaction types that have records",
+      "environment": "Desktop, mobile, tablet",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;",
+	"3. Click on next arrow from pager navigation between expenses and income;",
+	"4. Click on previous month;",
+	"5. Click on previous arrow from pager navigation between expenses and income;",
+	"6. Click on previous arrow from pager navigation between month until October 2023;",
+	"5. Click on previous arrow from pager navigation between expenses and income."
+      ],
+      "expected results": [
+	"1. Main page is loaded. Reports button is visible.",
+	"2. Reports page is loaded. Expenses and income are visible. Only the total expenses incurred in the current month are shown, by each category;",
+	"3. Only the total income incurred in the current month are shown, by each category;",
+	"4. Only the total expenses incurred in the previous month are shown, by each category or is displayed the message -Sorry, you don't have operations for this period-;",
+	"5. Only the total income incurred in the previous month are shown, by each category or is displayed the message -Sorry, you don't have operations for this period-;",
+	"6. Only the total expenses incurred in the selected month are shown, by each category or is displayed the message -Sorry, you don't have operations for this period-;",
+	"7. Only the total income incurred in the selected month are shown, by each category or is displayed the message -Sorry, you don't have operations for this period-."
+      ],
+      "priority": "Low",
+      "assignee": "Mihaela Adam",
+      "status": "Done"
+    }
+  ]
+}

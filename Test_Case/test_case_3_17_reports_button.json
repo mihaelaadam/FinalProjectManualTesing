@@ -1,0 +1,25 @@
+﻿{
+  "item": [
+    {
+      "type": "task",
+      "title": "[SCRUM-57] 3.17. Verify Reports button functionality",
+      "environment": "Desktop, mobile, tablet",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;"
+      ],
+      "expected results": [
+	"1. Main page is loaded. Reports button is visible.",
+	"2. Reports page is loaded. Expenses and incomes are visible."
+      ],
+      "priority": "Highest",
+      "assignee": "Mihaela Adam",
+      "status": "Done"
+    }
+  ]
+}

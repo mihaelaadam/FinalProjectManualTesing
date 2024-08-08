@@ -1,0 +1,33 @@
+﻿{
+  "item": [
+    {
+      "type": "task",
+      "title": "[SCRUM-58] 4.2. Verify pager navigation between months",
+      "environment": "Desktop, mobile, tablet",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;",
+	"3. Identify navigation between months buttons;",
+	"4. Click on next month;",
+	"5. Click on previous month;",
+	"6. Click on previous until December 2023."
+      ],
+      "expected results": [
+	"1. Main page is loaded. Reports button is visible.",
+	"2. Reports page is loaded. Expenses and income are visible;",
+	"3. Current month and year are visible. Forward and backward arrows are visible;",
+	"4. Arrow is deactivated. Information on the page is the same. There is no changes.",
+	"5. Current month and current year are displayed. Current month's information is displayed;",
+	"6. December 2023 is displayed. Information about December 2023 are displayed."
+      ],
+      "priority": "High",
+      "assignee": "Mihaela Adam",
+      "status": "Done"
+    }
+  ]
+}

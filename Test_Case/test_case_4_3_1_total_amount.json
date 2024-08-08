@@ -1,0 +1,31 @@
+﻿{
+  "item": [
+    {
+      "type": "task",
+      "title": "[SCRUM-64] 4.3.1. Verify the display of amount expenses and income",
+      "environment": "Desktop, mobile, tablet",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;",
+	"3. Identify navigation between months buttons;",
+	"4. Click on previous month;",
+	"5. Click on previous until December 2023."
+      ],
+      "expected results": [
+	"1. Main page is loaded. Reports button is visible.",
+	"2. Reports page is loaded. Expenses and income are visible;",
+	"3. The current month is displayed. The total amounts of income and expenditure for the current month are displayed;",
+	"4. The previous month is displayed. The total amounts of income and expenditure for previous month are displayed;",
+	"5. December 2023 is displayed. The total amounts of income and expenditure for the selected month are displayed."
+      ],
+      "priority": "High",
+      "assignee": "Mihaela Adam",
+      "status": "Done"
+    }
+  ]
+}
