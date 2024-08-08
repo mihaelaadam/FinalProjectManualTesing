@@ -1,0 +1,32 @@
+﻿{
+  "item": [
+    {
+      "type": "bug",
+      "title": "[SCRUM-79] 4.1. Inconsistent navigation UI on desktop - arrow with text instead of button",
+      "environment": "Desktop, tablet",
+      "description": "An arrow with the text Main Page is used instead of a button.",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps to reproduce": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;",
+        "3. Click the Main page button."
+      ],
+      "expected results": [
+        "1. Main page is loaded. Reports button is visible;",
+        "2. Reports page is loaded. Main Page button is visible;",
+        "3. Main page is displayed."
+      ],
+      "actual results": "Main Page button is not visible.",
+      "priority": "Medium",
+      "severity": "Major",
+      "assignee": "Mihaela Adam",
+      "status": "Done",
+      "relates to": "SCRUM-63",
+      "attachment name": "bug - back to main page on desktop and tablet.png"
+    }
+  ]
+}

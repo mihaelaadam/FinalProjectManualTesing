@@ -1,0 +1,32 @@
+﻿{
+  "item": [
+    {
+      "type": "bug",
+      "title": "[SCRUM-72] 4.5. Amounts for each category are not displayed in descending order on graph",
+      "environment": "Desktop, tablet",
+      "description": "A graph is displayed with all expenses in the SPORTS, HOBBIES category. The sums for each category are done but not displayed in descending order.",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps to reproduce": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;",
+        "3. Click on SPORTS, HOBBIES category."
+      ],
+      "expected results": [
+        "1. Main page is loaded. Reports button is visible;",
+        "2. Reports page is loaded. Expenses and income are visible. Only the total expenses incurred in the current month are shown, by each category;",
+        "3. A graph is displayed with all expenses in the SPORTS, HOBBIES category. The axes of the graph should be clearly visible. The text on the graph should be legible and not overlap. The sums of all products for that category are displayed in descending order."
+      ],
+      "actual results": "The amounts for each category are not displayed in descending order.",
+      "priority": "Low",
+      "severity": "Minor",
+      "assignee": "Mihaela Adam",
+      "status": "Done",
+      "relates to": "SCRUM-70",
+      "attachment name": "bug - graphic.png"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+﻿{
+  "item": [
+    {
+      "type": "bug",
+      "title": "[SCRUM-83] 4.EXTRA.2. Language change. Currency display language inconsistency in Graphs",
+      "environment": "Desktop, mobile, tablet",
+      "description": "The amounts correspond to the currency shown but the currency continues to be displayed in EURO, regardless of the language setting chosen.",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps to reproduce": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;",
+        "3. Click on SPORTS, HOBBIES category;",
+	"4. Click on Ukrainian flag.",
+	"5. Click on previous arrow from pager navigation between expenses and income;",
+	"6. Click on “SALARY” category."
+      ],
+      "expected results": [
+        "1. Main page is loaded. Reports button is visible;",
+        "2. Reports page is loaded. Expenses and income are visible. Only the total expenses incurred in the current month are shown, by each category;",
+        "3. A graph is displayed with all expenses in the SPORTS, HOBBIES category. The axes of the graph should be clearly visible. The text on the graph should be legible and not overlap. The sums of all products for that category are displayed in descending order;",
+	"4. The application's language is changed to the selected language without issues. All text and UI elements are translated maintaining readability and usability;",
+	"5. Only the total income incurred in the current month are shown, by each category. All text and UI elements are translated maintaining readability and usability;",
+	"6. A graph is displayed with all expenses in the SALARY category. The axes of the graph should be clearly visible. The text on the graph should be legible and not overlap. The sums of all receipts for that category are displayed in descending order. All text and UI elements are translated maintaining readability and usability."
+      ],
+      "actual results": "The currency in the graph is displayed in EURO only.",
+      "priority": "Low",
+      "severity": "Trivial",
+      "assignee": "Mihaela Adam",
+      "status": "Done",
+      "relates to": "SCRUM-82",
+      "attachment name": "bug - currency inconsistency.png"
+    }
+  ]
+}

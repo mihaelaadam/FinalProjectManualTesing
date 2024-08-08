@@ -1,0 +1,34 @@
+﻿{
+  "item": [
+    {
+      "type": "bug",
+      "title": "[SCRUM-84] 4.EXTRA.2. Language change. The amount in the balances is not converted",
+      "environment": "Desktop, mobile, tablet",
+      "description": "The currency is changed in UAH. Currency amounts continue to be displayed in EURO, without conversion to the UAH. This applies to balance, total for expenses and total income.",
+      "pre-conditions": [
+        "1. Internet connection",
+        "2. Chrome browser is installed on desktop;",
+        "3. Open https://kapusta-qa-ro.p.goit.global/"
+      ],
+      "steps to reproduce": [
+        "1. Login with a valid email and password;",
+        "2. Click on Reports button;",
+        "3. Click on SPORTS, HOBBIES category;",
+	"4. Click on Ukrainian flag."
+      ],
+      "expected results": [
+        "1. Main page is loaded. Reports button is visible;",
+        "2. Reports page is loaded. Expenses and income are visible. Only the total expenses incurred in the current month are shown, by each category;",
+        "3. A graph is displayed with all expenses in the SPORTS, HOBBIES category. The axes of the graph should be clearly visible. The text on the graph should be legible and not overlap. The sums of all products for that category are displayed in descending order;",
+	"4. The application's language is changed to the selected language without issues. All text and UI elements are translated maintaining readability and usability;"
+      ],
+      "actual results": "The amount in the balances is not converted in UAH",
+      "priority": "High",
+      "severity": "Critical",
+      "assignee": "Mihaela Adam",
+      "status": "Done",
+      "relates to": "SCRUM-82",
+      "attachment name": "bug - amount displayed in Euro.png"
+    }
+  ]
+}
